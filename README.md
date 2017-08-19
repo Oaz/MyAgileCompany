@@ -9,3 +9,4 @@ The elements of this game are provided to you under the terms of the license [Cr
 
 Thanks to the beta-testers: Riadh, Claude, Gaëlle, Stéphane, Aldéric, Vincent, Noushka, Guillaume, Jeff, Sylvie, Ionut, Marion and Jordi.
 
+Website: https://myagilecompany.klo.re/
