@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html>
+  <!--
+   Copyright 2017-2024 - Olivier Azeau
+   
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU Affero General Public License as published
+   by the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+  <head>
+  </head>
+  <body>
+    <div class="card product-team">
+	    <div class="cardtype">Product Team</div>
+      <div class="container">
+        <div class="name">{{:title}}</div>
+        <img class="logo" src="images/{{:title}}.svg" />
+        <div class="description">{{:description}}</div>
+      </div>
+      <div class="cost">
+        <div class="label">Cost</div>
+        <div class="value">{{:cost}}</div>
+      </div>
+      <div class="score">
+        <div class="label">Score</div>
+        <div class="value">{{:score}}</div>
+      </div>
+    </div>
+    <div class="card agile-maturity">
+	    <div class="cardtype">Agile Maturity</div>
+      <div class="container">
+        <div class="name">{{:title}}</div>
+        <div class="description">{{:description}}</div>
+        <div class="sectionhead">Benefit</div>
+        <img class="logo" src="images/{{:activity}}.svg" />
+        <div class="gain">{{:gain}}</div>
+      </div>
+      <div class="cost">
+        <div class="label">Cost</div>
+        <div class="value">{{:cost}}</div>
+      </div>
+      <div class="score">
+        <div class="label">Score</div>
+        <div class="value">{{:score}}</div>
+      </div>
+    </div>
+    <div class="card agile-value">
+	    <div class="cardtype">Agile Value</div>
+      <div class="container">
+        <div class="name">{{:title}}</div>
+        <div class="description">{{:description}}</div>
+        <div class="sectionhead">Benefit</div>
+        <img class="logo" src="images/LEADER.svg" />
+        <div class="gain">Each adopted value grants the right to keep an additional card at the beginning of a turn.</div>
+      </div>
+      <div class="cost">
+        <div class="label">Cost</div>
+        <div class="value">4</div>
+      </div>
+      <div class="score">
+        <div class="label">Score</div>
+        <div class="value">n</div>
+      </div>
+    </div>
+    <div class="card activity">
+	    <div class="cardtype">Activity</div>
+      <div class="container">
+        <div class="name">{{:title}}</div>
+        <div class="description">{{:description}}</div>
+        <div class="sectionhead">Bonus</div>
+        <img class="logo" src="images/{{:logo}}.svg" />
+        <div class="privilege">{{:privilege}}</div>
+      </div>
+    </div>
+    <div class="card leader">
+      <div class="container">
+        <div class="name">Game Leader</div>
+        <img class="logo" src="images/LEADER.svg" />
+        <div class="description">When this card changes hands, players must have a maximum of six cards in hand.</div>
+        <div class="description2">Any additional cards are discarded.</div>
+      </div>
+    </div>
+    <div class="card cover">
+      <div class="container">
+        <div class="title">My Agile Company</div>
+        <div class="url">https://agilecompany.mnt.space/</div>
+        <div class="version">v1.1</div>
+        <div class="license">CC-BY-SA 4.0</div>
+      </div>
+    </div>
+    <div class="card profits">
+	    <div class="cardtype">Earnings</div>
+      <div class="container">
+        <div class="profit advergame">
+          <img class="logo" src="images/ADVERGAME.svg" />
+          <div class="value">{{:ADVERGAME}}</div>
+         </div>
+         <div class="profit education">
+          <img class="logo" src="images/EDUCATION.svg" />
+          <div class="value">{{:EDUCATION}}</div>
+         </div>
+         <div class="profit social">
+          <img class="logo" src="images/SOCIAL.svg" />
+          <div class="value">{{:SOCIAL}}</div>
+         </div>
+         <div class="profit mmog">
+          <img class="logo" src="images/MMOG.svg" />
+          <div class="value">{{:MMOG}}</div>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>

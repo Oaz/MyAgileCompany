@@ -1,6 +1,0 @@
-﻿Count,Title,Action,Privilege
-1,DEVELOPMENT,Each player can develop a product,The activity initiator can develop an additional product
-1,DEPLOYMENT,Each player can deploy a product,The activity initiator can deploy an additional product
-1,RETROSPECTIVE,"Each player can set up a team, an action or a value",The activity initiator pays one card less
-1,CONFERENCE,Each player draws two cards and keep one,The activity initiator draws five cards instead of two
-1,COACH,The coach intervention is limited to the activity initiator,The activity initiator draws one card and keep it
